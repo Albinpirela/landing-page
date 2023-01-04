@@ -89,5 +89,7 @@ a few modifications to the linter configuration files.
 
 Once you've done the previous steps you can focus on your SCSS files and not in fixing the generated CSS output
 every time.
+<br>
+<h1 styles"text-align: center; color: red;"}>LANDING PAGE</h1>
+It is a responsive development work that will help us with the management of the style and the index also works for tablets, computers and phones, it also has some actions that can help us correct imperfections in the project
 
-<h1 style{text-align:center; color: blue;}>Landing page</h1>
