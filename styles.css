@@ -1,0 +1,423 @@
+body {
+    background-color: #ddd;
+}
+
+.container {
+    visibility: visible;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 726px;
+}
+
+.portada {
+    display: flex;
+    width: 50%;
+    height: 726px;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background: url(ap.png), rgba(82, 0, 255, 0.4);
+    background-repeat: no-repeat;
+}
+
+.portada-img {
+    width: 100%;
+    height: 726px;
+}
+
+.flex-box {
+    position: absolute;
+    width: 60%;
+    height: 439px;
+    top: 150px;
+    right: 50px;
+}
+
+.box-header {
+    position: relative;
+    display: grid;
+    height: 200px;
+    box-sizing: border-box;
+    font-family: Bebas Neue, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 63px;
+    text-align: right;
+    color: #fff;
+}
+
+.box-parrafo {
+    display: grid;
+    position: relative;
+    width: 80%;
+    height: 100px;
+    font-family: Poppins, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: right;
+    margin-top: 20px;
+    left: 90px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.datos {
+    box-sizing: border-box;
+    display: grid;
+    position: relative;
+    width: 50%;
+    height: 726px;
+    background: #fff;
+}
+
+#nombre {
+    box-sizing: border-box;
+    display: grid;
+    position: relative;
+    width: 80%;
+    height: 50px;
+    left: 50px;
+    top: 206px;
+    background: #ededed;
+    border: 1px solid #c7c7c7;
+}
+
+#mail {
+    box-sizing: border-box;
+    display: grid;
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    left: 50px;
+    top: 316px;
+    background: #ededed;
+    border: 1px solid #c7c7c7;
+}
+
+.entrada {
+    position: absolute;
+    width: 57px;
+    height: 27px;
+    left: 50px;
+    top: 140px;
+    display: grid;
+    font-family: Poppins, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+}
+
+.correo {
+    position: absolute;
+    width: 57px;
+    height: 27px;
+    left: 50px;
+    top: 251px;
+    font-family: Poppins, 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000;
+}
+
+#sing {
+    position: absolute;
+    width: 30%;
+    height: 55px;
+    left: 50px;
+    top: 410px;
+    color: #fff;
+    background: #5200ff;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+}
+
+.responsive__container {
+    visibility: hidden;
+}
+
+.responsive__phone-container {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        visibility: hidden;
+    }
+
+    .responsive__phone-container {
+        visibility: hidden;
+    }
+
+    .responsive__container {
+        visibility: visible;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        margin: auto;
+        bottom: 730px;
+        flex-direction: column;
+        width: 100%;
+        height: 791px;
+    }
+
+    .responsive__portada {
+        display: grid;
+        position: absolute;
+        width: 100%;
+        height: 486px;
+        background: url(ap.png), rgba(82, 0, 255, 0.4);
+    }
+
+    .responsive__flex-box {
+        position: absolute;
+        box-sizing: border-box;
+        width: 80%;
+        height: 339px;
+        top: 80px;
+        left: 70px;
+    }
+
+    .responsive__box-header {
+        position: absolute;
+        width: 95%;
+        height: 212px;
+        box-sizing: border-box;
+        padding: 30px;
+        font-family: Bebas Neue, 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 200;
+        font-size: 22px;
+        line-height: 37px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .responsive__box-parrafo {
+        position: absolute;
+        width: 90%;
+        height: 95px;
+        top: 230px;
+        box-sizing: border-box;
+        font-family: Poppins, 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 36px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .responsive__datos {
+        box-sizing: border-box;
+        display: grid;
+        position: absolute;
+        width: 100%;
+        height: 250px;
+        top: 487px;
+        background: #ededed;
+        border: 1px solid #c7c7c7;
+        flex-direction: row;
+    }
+
+    .responsive__datos-nombre {
+        position: absolute;
+        width: 48%;
+        height: 250px;
+        box-sizing: border-box;
+    }
+
+    .responsive__datos-email {
+        position: absolute;
+        width: 50%;
+        height: 250px;
+        left: 270px;
+        box-sizing: border-box;
+    }
+
+    .responsive__entrada {
+        position: absolute;
+        width: 200%;
+        height: 27px;
+        left: 3px;
+        top: 18px;
+        font-family: Poppins, 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 27px;
+        color: #000;
+    }
+
+    #responsive__nombre {
+        box-sizing: border-box;
+        position: absolute;
+        width: 85%;
+        height: 55px;
+        left: 3px;
+        top: 65px;
+        background: #ededed;
+        border: 1px solid #c7c7c7;
+    }
+
+    .responsive__correo {
+        position: absolute;
+        width: 55px;
+        height: 27px;
+        left: 20px;
+        top: 15px;
+        font-family: Poppins, 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000;
+    }
+
+    #responsive__mail {
+        box-sizing: border-box;
+        display: flex;
+        position: absolute;
+        width: 85%;
+        height: 55px;
+        top: 65px;
+        margin-left: 20px;
+        background: #ededed;
+        border: 1px solid #c7c7c7;
+    }
+
+    #responsive__sing {
+        position: absolute;
+        width: 187px;
+        height: 63px;
+        left: 3px;
+        top: 159px;
+        background: #5200ff;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container {
+        visibility: hidden;
+    }
+
+    .responsive__container {
+        visibility: hidden;
+    }
+
+    .responsive__phone-container {
+        visibility: visible;
+        width: 100%;
+        height: 851px;
+        box-sizing: border-box;
+        display: flex;
+        position: relative;
+        margin: auto;
+        flex-direction: column;
+        bottom: 1520px;
+        right: 8px;
+    }
+
+    .responsive__phone-portada {
+        display: grid;
+        position: absolute;
+        width: 100%;
+        height: 586px;
+        background: url(ap.png), rgba(82, 0, 255, 0.4);
+    }
+
+    .responsive__phone-flex-box {
+        position: absolute;
+        box-sizing: border-box;
+        width: 65%;
+        height: 339px;
+        top: 180px;
+        left: 70px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .responsive__phone-datos {
+        box-sizing: border-box;
+        display: grid;
+        position: absolute;
+        width: 100%;
+        height: 325px;
+        top: 480px;
+        background: #ededed;
+        border: 1px solid #c7c7c7;
+        flex-direction: row;
+    }
+
+    .responsive__phone-entrada {
+        position: relative;
+        width: 55px;
+        height: 27px;
+        left: 16px;
+        top: 15px;
+        font-family: Poppins, 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000;
+    }
+
+    #responsive__phone-nombre {
+        box-sizing: border-box;
+        position: absolute;
+        width: 90%;
+        height: 35px;
+        left: 14px;
+        top: 65px;
+        background: #ededed;
+        border: 1px solid #c7c7c7;
+    }
+
+    #responsive__phone-mail {
+        box-sizing: border-box;
+        position: relative;
+        width: 90%;
+        height: 35px;
+        left: 14px;
+        bottom: 80px;
+        background: #ededed;
+        border: 1px solid #c7c7c7;
+    }
+
+    .responsive__phone-correo {
+        position: relative;
+        width: 55px;
+        height: 27px;
+        left: 18px;
+        bottom: 10px;
+        font-family: Poppins, 'Courier New', Courier, monospace;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        color: #000;
+    }
+
+    #responsive__phone-sing {
+        position: absolute;
+        width: 90%;
+        height: 46px;
+        left: 20px;
+        top: 250px;
+        color: #fff;
+        font-size: 18px;
+        background: #5200ff;
+    }
+}
