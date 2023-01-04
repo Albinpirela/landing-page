@@ -89,3 +89,5 @@ a few modifications to the linter configuration files.
 
 Once you've done the previous steps you can focus on your SCSS files and not in fixing the generated CSS output
 every time.
+
+<h1 style{text-align:center; color: blue;}>Landing page</h1>
