@@ -91,5 +91,5 @@ Once you've done the previous steps you can focus on your SCSS files and not in 
 every time.
 
 <br>
-<h1 styles"text-align: center; color: red;}>#LANDING PAGE</h1>
+<h1 styles"text-align: center; color: red;"}>LANDING PAGE</h1>
 It is a responsive development work that will help us with the management of the style and the index also works for tablets, computers and phones, it also has some actions that can help us correct imperfections in the project
