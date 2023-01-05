@@ -6,13 +6,13 @@ body {
   visibility: visible;
   flex-wrap: wrap;
   box-sizing: border-box;
-  margin: auto;
+  margin: 0;
   display: flex;
   width: 100%;
   height: 726px;
 }
 
-.portada {
+.front-page {
   display: flex;
   width: 50%;
   height: 726px;
@@ -23,7 +23,7 @@ body {
   background-repeat: no-repeat;
 }
 
-.portada-img {
+.front-page-img {
   width: 100%;
   height: 726px;
 }
@@ -50,7 +50,7 @@ body {
   color: #fff;
 }
 
-.box-parrafo {
+.box-paragraph {
   display: grid;
   position: relative;
   width: 80%;
@@ -67,7 +67,7 @@ body {
   color: #fff;
 }
 
-.datos {
+.data {
   box-sizing: border-box;
   display: grid;
   position: relative;
@@ -76,7 +76,7 @@ body {
   background: #fff;
 }
 
-#nombre {
+#name {
   box-sizing: border-box;
   display: grid;
   position: relative;
@@ -100,7 +100,7 @@ body {
   border: 1px solid #c7c7c7;
 }
 
-.entrada {
+.input {
   position: absolute;
   width: 57px;
   height: 27px;
@@ -115,7 +115,7 @@ body {
   color: #000;
 }
 
-.correo {
+.email {
   position: absolute;
   width: 57px;
   height: 27px;
@@ -164,14 +164,14 @@ body {
     box-sizing: border-box;
     display: flex;
     position: relative;
-    margin: auto;
+    margin: 0;
     bottom: 730px;
     flex-direction: column;
     width: 100%;
     height: 791px;
   }
 
-  .responsive__portada {
+  .responsive__front-page {
     display: grid;
     position: absolute;
     width: 100%;
@@ -203,7 +203,7 @@ body {
     color: #fff;
   }
 
-  .responsive__box-parrafo {
+  .responsive__box-paragraph {
     position: absolute;
     width: 90%;
     height: 95px;
@@ -218,7 +218,7 @@ body {
     color: #fff;
   }
 
-  .responsive__datos {
+  .responsive__data {
     box-sizing: border-box;
     display: grid;
     position: absolute;
@@ -230,14 +230,14 @@ body {
     flex-direction: row;
   }
 
-  .responsive__datos-nombre {
+  .responsive__data-name {
     position: absolute;
     width: 48%;
     height: 250px;
     box-sizing: border-box;
   }
 
-  .responsive__datos-email {
+  .responsive__data-email {
     position: absolute;
     width: 50%;
     height: 250px;
@@ -245,7 +245,7 @@ body {
     box-sizing: border-box;
   }
 
-  .responsive__entrada {
+  .responsive__input {
     position: absolute;
     width: 200%;
     height: 27px;
@@ -259,7 +259,7 @@ body {
     color: #000;
   }
 
-  #responsive__nombre {
+  #responsive__name {
     box-sizing: border-box;
     position: absolute;
     width: 85%;
@@ -270,7 +270,7 @@ body {
     border: 1px solid #c7c7c7;
   }
 
-  .responsive__correo {
+  .responsive__email {
     position: absolute;
     width: 55px;
     height: 27px;
@@ -323,13 +323,13 @@ body {
     box-sizing: border-box;
     display: flex;
     position: relative;
-    margin: auto;
+    margin: 0;
     flex-direction: column;
     bottom: 1520px;
     right: 8px;
   }
 
-  .responsive__phone-portada {
+  .responsive__phone-front-page {
     display: grid;
     position: absolute;
     width: 100%;
@@ -348,7 +348,7 @@ body {
     color: #fff;
   }
 
-  .responsive__phone-datos {
+  .responsive__phone-data {
     box-sizing: border-box;
     display: grid;
     position: absolute;
@@ -360,7 +360,7 @@ body {
     flex-direction: row;
   }
 
-  .responsive__phone-entrada {
+  .responsive__phone-input {
     position: relative;
     width: 55px;
     height: 27px;
@@ -374,7 +374,7 @@ body {
     color: #000;
   }
 
-  #responsive__phone-nombre {
+  #responsive__phone-name {
     box-sizing: border-box;
     position: absolute;
     width: 90%;
@@ -396,7 +396,7 @@ body {
     border: 1px solid #c7c7c7;
   }
 
-  .responsive__phone-correo {
+  .responsive__phone-email {
     position: relative;
     width: 55px;
     height: 27px;
