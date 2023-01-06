@@ -34,5 +34,5 @@ To get a local copy up and running follow these simple example steps.
 
 <h1 align="center">Colaborator</h1>
 #Hendrid Gonzalez<br>
-###special thanks to the person who says the project
+###special thanks to the person who design the project
 
