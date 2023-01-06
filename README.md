@@ -22,12 +22,17 @@ To get a local copy up and running follow these simple example steps.
 
 ### Internet access 
 
-### you need to set for iphone 12 pro and for ipad air
+### You need to set for iphone 12 pro and for ipad air
 
-### Install google crome
+### Install Google Crome, Figma
 
 ### Usage: Add your name and email
 
 ### Run tests: Run tests by double clicking the index html file
 
 ### Deployment
+
+<h1 align="center">Colaborator</h1>
+#Hendrid Gonzalez<br>
+###special thanks to the person who says the project
+
