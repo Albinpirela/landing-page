@@ -1,38 +1,37 @@
-
-<h1 align="center">Landing page</h1>
+# Landing page
 
 > Set up the project, the goal here is to master all of the tools and best practices about Linter and Gitflow.
 
-<img src="catgit.jpg" backgrount="black">
+![screenshot](./landing-img.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages: English
-- Frameworks: 'Bebas Neue', 'Courier New', Courier, monospace
-- Technologies used: google crome
+- Technologies used : html / css
 
-## Getting Started
+👤 **Author1**
 
-**In this project you only have to enter your name and your email.**
-**it is configured for iphone 12 pro and for tablet ipad air**
+- GitHub: [@Albinpirela](https://github.com/Albinpirela)
+- Twitter: [@Albinpirela1](https://twitter.com/Albinpirela1)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/Albinpirela)
 
-To get a local copy up and running follow these simple example steps.
+## 🤝 Contributing
 
-### Internet access 
+Contributions, issues, and feature requests are welcome!
 
-### You need to set for iphone 12 pro and for ipad air
+Feel free to check the [issues page](../../issues/).
 
-### Install Google Crome, Figma
+## Show your support
 
-### Usage: Add your name and email
+Give a ⭐️ if you like this project!
 
-### Run tests: Run tests by double clicking the index html file
+## Acknowledgments
 
-### Deployment
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-<h1 align="center">Colaborator</h1>
-#Hendrid Gonzalez<br>
-###special thanks to the person who design the project
+## 📝 License
 
+This project is [MIT](./MIT.md) licensed.
